@@ -1,0 +1,133 @@
+        .banner {
+            z-index: 1;
+            background-attachment: fixed;
+            min-height: 100vh;
+            background: url('../img/banner.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            opacity: .8;
+        }
+        .banner h2 {
+            font-size: 3em;
+            color: #000;
+            font-weight: 500;
+            line-height: 1.5em;
+        }
+        
+        .banner h2 span {
+            font-size: 1.5em;
+            font-weight: 700;
+        }
+        
+        .banner p {
+            font-size: 1.2em;
+            color: #ffffff;
+            font-weight: 500;
+        }
+        .textBx{
+            width: 70%;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .btn {
+            position: relative;
+            background: #1789e6;
+            display: inline-block;
+            color: #ffffff;
+            margin-top: 20px;
+            padding: 10px 30px;
+            font-size: 18px;
+            text-transform: uppercase;
+            text-decoration: none;
+            letter-spacing: 2px;
+            font-weight: 500;
+        }
+        
+                .content {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .contentBx {
+            padding-right: 30px;
+        }
+        
+        .contentBx h3 {
+            font-size: 30px;
+            margin-bottom: 10px;
+        }
+        
+        .contentBx p {
+            font-size: 17px;
+            font-weight: 540;
+            line-height: 23px;
+        }
+        
+        .w50 {
+            min-width: 40%;
+            height: 350px;
+        }
+        .w50 img{
+            height: 100%;
+            width: 100%;
+        }
+        .w50 p{
+            margin-top: 10px;
+            line-height: 25px;
+            padding-right: 20px;
+        }
+        
+        img {
+            max-width: 100%;
+        }
+        /* this is services page css */
+        
+        /* .services {
+            background: #111;
+        } */
+        
+        /* .heading.white {
+            color: #ffffff;
+        } */
+        
+        .services .content {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+        
+        .services .content .servicesBx {
+            padding: 40px 20px;
+            background: #fff;
+            color: #000;
+            max-width: 340px;
+            margin: 20px;
+            text-align: center;
+            transition: 0.5s;
+            border: 2px solid #2196f3;
+            border-radius: 10px;
+            box-shadow: 0px 14px 16px -16px rgb(64, 195, 255);
+
+        }
+        
+        .services .content .servicesBx:hover {
+            background: #2196f3;
+            color: #fff;
+        }
+        
+        .services .content .servicesBx img {
+            max-width: 80px;
+            filter: invert(1);
+        }
+        
+        .services .content .servicesBx h2 {
+            font-size: 20px;
+            font-weight: 600;
+        }
+

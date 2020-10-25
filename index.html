@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/home.css">
+    <script src="https://kit.fontawesome.com/74d240b4ae.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="logo">Kindergartan School</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#ser" onclick="toggleMenu();">Services</a></li>
+            <li><a href="#" onclick="toggleMenu();">Student Registration</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+            <div class="textBx">
+                <h2 data-aos="fade-right">Kindergartan School<br> <span> </span></h2>
+                <p data-aos="fade-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis voluptatum
+                    possimus eveniet aspernatur numquam iure nihil autem, aut, laboriosam, at aliquam distinctio!
+                    Possimus voluptate earum in voluptatibus vel eum quis. </p>
+                <a data-aos="fade-up" href="#about" class="btn">Register Now</a>
+        </div>
+
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2 data-aos="fade-up">About Us</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3 data-aos="fade-up">Kindergartan School</h3>
+                <p data-aos="fade-up" data-aos-duration="1000">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Quas cum sed reiciendis consequuntur iure? Sunt similique accusamus vitae doloribus ea quia quaerat
+                    totam ipsum eaque, maxime quisquam. Illo, ipsa qui! Lorem ipsum dolor, sit amet consectetur
+                    adipisicing elit. Corrupti reprehenderit omnis vero quae libero odit blanditiis voluptates ab nisi
+                    sit voluptas illum, eos earum debitis sint aliquid consectetur quam at.</p>
+            </div>
+            <div class="w50" data-aos="fade-up">
+                <img src="./assets/img/ab.png" class="image">
+            </div>
+        </div>
+    </section>
+    <section class="services" id="ser">
+        <div class="heading white">
+            <h2 data-aos="fade-up">Our Services</h2>
+        </div>
+        <div class="content">
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Custom Food</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Many Sports</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Bus Services</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Excersion</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Languages</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+            <div class="servicesBx" data-aos="fade-up">
+                <h2>Qualified Teachers</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+            </div>
+        </div>
+
+    </section>
+    <div class="angleUp">
+        <a href="#home"><span><i class="fas fa-angle-up"></i></span></a>
+    </div>
+    <footer class="Sfooter">
+        <div class="fooLogo">
+            <h2 href="#" class="logo">Kindergartan School</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa cumque repellat fuga possimus expedita
+                sunt dolore cupiditate consequatur, pariatur, eligendi,</p>
+        </div>
+        <div class="fooLinks">
+            <h2>Quick Links</h2>
+            <div>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#ser">Services</a></li>
+                <li><a href="#">Student Registration</a></li>
+            </div>
+        </div>
+        <div class="fooIcon">
+            <span><i class="fab fa-facebook-f"></i></span>
+            <span><i class="fab fa-whatsapp"></i></span>
+            <span><i class="fab fa-twitter"></i></span>
+
+        </div>
+    </footer>
+    <div class="copy">
+        <p>Copyright 2020 Kindergartan School</p>
+
+    </div>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function () {
+            var header = document.querySelector('header');
+            header.classList.toggle('sticky', window.scrollY > 0);
+        })
+
+        function toggleMenu() {
+            var menuToggle = document.querySelector('.toggle');
+            var menu = document.querySelector('.menu');
+            menuToggle.classList.toggle('active');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
